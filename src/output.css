@@ -324,6 +324,9 @@
   .gap-\[25px\] {
     gap: 25px;
   }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
   .gap-\[35px\] {
     gap: 35px;
   }
@@ -361,6 +364,9 @@
   }
   .bg-\[\#F1F5F9\] {
     background-color: #F1F5F9;
+  }
+  .bg-\[\#FACC15\] {
+    background-color: #FACC15;
   }
   .p-\[5px\] {
     padding: 5px;
@@ -486,6 +492,11 @@
   .lg\:h-\[300px\] {
     @media (width >= 64rem) {
       height: 300px;
+    }
+  }
+  .lg\:h-\[500px\] {
+    @media (width >= 64rem) {
+      height: 500px;
     }
   }
   .lg\:w-\[3\] {
