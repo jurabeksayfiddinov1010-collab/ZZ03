@@ -498,6 +498,11 @@
       flex-direction: row;
     }
   }
+  .lg\:flex-row-reverse {
+    @media (width >= 64rem) {
+      flex-direction: row-reverse;
+    }
+  }
   .lg\:p-0 {
     @media (width >= 64rem) {
       padding: 0;
